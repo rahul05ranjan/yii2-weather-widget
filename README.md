@@ -57,3 +57,5 @@ echo rahulswt7\weatherWidgets\WeatherForcast::widget([
 
 Packagist [link](https://packagist.org/packages/rahulswt7/yii2-weather-widget "link") 
 
+Github [link](https://github.com/rahul05ranjan/yii2-weather-widget "link") 
+
