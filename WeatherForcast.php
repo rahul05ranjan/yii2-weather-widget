@@ -22,7 +22,7 @@ class WeatherForcast extends \yii\base\Widget{
 
     public function run(){
         parent::run();
-
+        WeatherWidgetAsset::register($this->getView());
         $weather = file_get_contents($this->url.$this->unit);
 
         $weatherDecode = json_decode($weather);
