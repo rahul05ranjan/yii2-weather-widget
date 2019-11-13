@@ -9,7 +9,7 @@ How to use it.
 
 Just add below lines in your composer.json file
 
-`"rahulswt7/yii2-weather-widget" : "^0.1.0"`
+`"rahulswt7/yii2-weather-widget" : "^0.1.3"`
 
 Open your terminal and run command `composer install`
 
