@@ -59,3 +59,4 @@ Packagist [link](https://packagist.org/packages/rahulswt7/yii2-weather-widget "l
 
 Github [link](https://github.com/rahul05ranjan/yii2-weather-widget "link") 
 
+Issues [link](https://github.com/rahul05ranjan/yii2-weather-widget/issues "link") 
