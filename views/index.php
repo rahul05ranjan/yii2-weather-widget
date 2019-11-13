@@ -1,4 +1,6 @@
-<style>
+
+<?php 
+$this->registerCss("
 @import "compass/css3";
 
 .weatherWidgetImage{
@@ -105,11 +107,7 @@
 .weather-box-hourly th{
     padding : 10px;
 }
-</style>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<?php 
-
+");
 ?>
 
 <?php if($currently){ ?>
@@ -119,7 +117,7 @@
       <img style="display:none;" class="weatherWidgetImage" src="#">
     </div>
   </div>
-  <!-- <button onclick="getLocation()">Try It</button> -->
+
   <div class="weather-box">
         <p>
         <?php echo $weather->timezone; 

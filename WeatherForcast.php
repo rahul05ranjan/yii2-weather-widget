@@ -27,7 +27,6 @@ class WeatherForcast extends \yii\base\Widget{
 
         $weatherDecode = json_decode($weather);
 
-        //print_r($weatherDecode); die;
 
         return $this->render('index', [
             'weather'       =>  $weatherDecode,
